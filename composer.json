@@ -1,0 +1,16 @@
+{
+    "name": "debian/observer",
+    "description": "observer",
+    "version": "1.0.69",
+    "type": "lib",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "license": "MiT",
+    "autoload": {
+        "psr-4": {
+            "Observer\\": "src/"
+        }
+    },
+    "minimum-stability": "alpha"
+}
